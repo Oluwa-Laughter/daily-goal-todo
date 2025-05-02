@@ -17,7 +17,7 @@ function GoalList({ goals, onDeleteGoal }: GoalListProps) {
 
   if (goals.length >= 4) {
     warningBox = (
-      <InfoBox mode="warning">
+      <InfoBox mode="warning" severity="high">
         Too Many Goals. Don't put too much on your plate
       </InfoBox>
     );
